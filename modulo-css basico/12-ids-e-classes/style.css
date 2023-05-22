@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+.descricao-produto{
+    background-color: aqua;
+    color: white;
+}
+
+.promocao {
+    border: solid 2px green;
+}
