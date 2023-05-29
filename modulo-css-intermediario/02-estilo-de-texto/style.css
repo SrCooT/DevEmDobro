@@ -1,0 +1,84 @@
+@charset "UTF_8";
+/*----------------------------------------*/
+/*----------------text align--------------*/
+/*----------------------------------------*/
+.alinhado-esquerda {
+    text-align: left;
+}
+
+.alinhado-direita {
+    text-align: right;
+}
+
+.alinhado-centro {
+    text-align: center;
+}
+
+.alinhado-justificado{
+    text-align: justify;
+}
+/*----------------------------------------*/
+/*----------------text transform--------------*/
+/*----------------------------------------*/
+
+.maiuscula {
+    text-transform: uppercase;
+}
+.minuscula {
+    text-transform: lowercase;
+}
+.capitalizado {
+    text-transform:capitalize;
+}
+
+/*--------------------------------------------*/
+/*----------------TEXT DECORATION-------------*/
+/*--------------------------------------------*/
+
+.sublinhado{
+    text-decoration: underline;
+}
+
+.linha-sobreposta {
+    text-decoration: line-through;
+}
+
+sem-text-decoration {
+    text-decoration: none;
+}
+/*--------------------------------------------*/
+/*----------------TEXT SPACING-----------------*/
+/*--------------------------------------------*/
+.altura-entre-linhas {
+    line-height: 40px;
+}
+/*--------------------------------------------*/
+/*----------------TEXT Sombra-----------------*/
+/*--------------------------------------------*/
+.sombra-de-texto  {
+    text-shadow: 10px 10px 1px brown;
+}
+
+/*--------------------------------------------*/
+/*----------------TEXT GERAL------------------*/
+/*--------------------------------------------*/
+.fundo-alinhamento {
+    padding: 20px;
+    background-color: #D1C4E9;
+} 
+
+.fundo-transform {
+    padding: 20px;
+    background-color: #C8E6C9;
+}
+.fundo-decoration {
+    padding: 20px;
+    background-color: #fff9c4;
+}
+.fundo {
+    padding: 20px;
+    background-color: #ccc;
+}
+html {
+    font-size: 24px;
+}
