@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+a {
+    cursor:progress
+}
+
+a:visited {
+    color: antiquewhite;
+}
+
+a:active {
+    color: red;
+}
