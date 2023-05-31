@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+p {
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.bg {
+    background-color: lightgreen;
+    background-image: url(imagem/wallpaper001.jpg);
+}
+
+.bg-image {
+    width: 500px;
+    height: 340px;
+}
+
+.bg-size-cover{
+    background-size: cover;
+    height: 540px;
+}
+.bg-repeat {
+    background-repeat: no-repeat;
+    height: 540px;
+}
+.bg-position{
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 540px;
+
+}
+.bg-attachment{
+    background-attachment: fixed;
+}
+.bg-shothand {
+    height: 540px;
+    background: #ccc url(imagem/wallpaper001.jpg) no-repeat bottom left;
+}
