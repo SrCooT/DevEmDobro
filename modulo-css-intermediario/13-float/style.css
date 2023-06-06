@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+.float .left {
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}
+.float .right {
+    float: right;
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+}
+.float:after {
+    content: "";
+    display: block;
+    clear: both;
+}

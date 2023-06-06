@@ -46,6 +46,9 @@ main p {
 
 /* Dispositivo extra pequenos ( celulares em posição paisagem,menos de 768px */
 @media (max-width: 576px){
+    .cabecalho {
+        text-align: center;
+    }
     .cabecalho nav {
        float: none ;
       
