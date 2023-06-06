@@ -48,6 +48,7 @@ main p {
 @media (max-width: 576px){
     .cabecalho nav {
        float: none ;
+      
     } 
     .cabecalho nav li{
         display: block;
