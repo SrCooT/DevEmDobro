@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+/* seletor:pseudo-classe{
+    propriedade: valor;
+} */
+
+/* p:first-child{
+    color: aqua;
+}
+
+p:last-child{
+    color: orange;
+}
+
+p:not(.padrao){
+    color: yellow ;
+}
+
+p:nth-child(n+1):nth-child(-n+3){
+    color: red;
+}
+li:nth-last-child(1){
+    color: red;
+} */
+
+p:only-child{
+    color: red;
+}
