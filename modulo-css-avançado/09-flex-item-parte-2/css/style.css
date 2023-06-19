@@ -34,3 +34,7 @@
 .align-self.center .item3{
     align-self: flex-center;
 }
+
+.align-self.stretch .item3{
+    align-self: stretch;
+}
