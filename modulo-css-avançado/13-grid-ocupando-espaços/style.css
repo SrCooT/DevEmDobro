@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+.verde-claro{
+    background-color: #339989;  
+}
+.rosa {
+    background-color: #ad6199;
+}
+
+.azul{
+    background-color: #4CACC1;
+}
+.laranja-escuro{
+    background-color: #A95851;
+}
+
+.verde-forte{
+    background-color:#325A66 ;
+}
+
+.marrom{
+    background-color: #716563;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(5,auto);
+    grid-template-rows: repeat(3,auto);
+    grid-gap:15px;
+    
+}
+
+.span{
+    grid-column: 1 /span 2;
+}
+
+.verde-claro{
+    /* grid-column-start: 1;
+    grid-column-end: 3; */
+    /* grid-column: 1 / span 2;
+
+    grid-row-start: 1;
+    grid-row-end:3;
+    grid-row: 1/ span 2; */
+
+    /* grid area é composto por 4 valores que são 
+     grid-row-start
+     grid-column-start
+     grid-row-end
+     grid-column-end */
+    grid-area: 1 / 1 / 3 / 3;
+}
+
+.azul{
+    grid-area: 1 / 3 / 1 / 6;
+}
+.rosa{
+    grid-area: 3 / 1 / 3 / 3 ;
+}
+.laranja-escuro{
+    grid-area: 2 / 3 / 4 / 5;
+}
+
+
