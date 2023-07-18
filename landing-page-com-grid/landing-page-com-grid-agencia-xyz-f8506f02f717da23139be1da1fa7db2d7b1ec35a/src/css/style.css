@@ -39,7 +39,7 @@ body{
     transition: 0.3s;
 }
 
-.header a:hover{
+.header a:hover h1{
     color: coral;
 }
 
