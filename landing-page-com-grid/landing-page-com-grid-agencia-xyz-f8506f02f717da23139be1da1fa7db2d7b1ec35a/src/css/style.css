@@ -130,10 +130,12 @@ body{
 .about .image.right{
     background: url('../images/bridge.jpg') center center no-repeat;
     background-size: cover;
+   
 }
 .about .image.left{
     background: url('../images/sky.jpg') center center no-repeat;
     background-size: cover;
+   
 }
 
 @media(max-width: 425px){
