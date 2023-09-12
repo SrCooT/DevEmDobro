@@ -30,4 +30,4 @@ incentivarQuester('Juno')
 // console.log(resultadoDaSoma)//4
 
 // resultadoDaSoma = soma(resultadoDaSoma, 10)
-// console.log(resultadoDaSoma)//14
+ console.log(resultadoDaSoma)//14
