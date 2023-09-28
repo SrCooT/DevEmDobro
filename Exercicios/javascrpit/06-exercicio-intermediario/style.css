@@ -1,0 +1,51 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Exmplo1 */
+.quadrado{
+    width: 100px;
+    height: 100px;
+}
+
+.azul{
+    background-color: blue;
+}
+
+.vermelho{
+    background-color: red;
+}
+
+.amarelo{
+    background-color: yellow;
+}
+
+
+/* Exemplo 2
+.numero1{
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+}
+
+.numero2{
+    width: 300px;
+    height: 300px;
+    background-color: red;
+}
+
+
+button{
+    width: 300px;
+}
+ 
+ */

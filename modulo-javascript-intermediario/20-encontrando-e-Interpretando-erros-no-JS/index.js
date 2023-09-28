@@ -4,12 +4,14 @@
 // console.log(valorBolet)
 
 //console.log(valorBoleto)
+
+
 let inputTelefone = document.getElementById("telefone");
 
-inputTelefone.disable = true
+inputTelefone.disabled = true;
 console.log(inputTelefone);
 
 function habilitarTelefone() {
     let inputTelefone = document.getElementById('telefone');
-    inputTelefone.disable = false;
+    inputTelefone.disabled = false;
 }
