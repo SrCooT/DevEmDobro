@@ -3,22 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
     <title>Exercicio 10 Intermediario JS</title>
 </head>
-<body>
-    <div class="container 1">
-    <h1>Titulo imagem 1 </h1>
+    <body>
+        <div class="imagens-slider">
 
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim impedit asperiores incidunt animi error cupiditate maiores corporis quo est. Eaque, iusto rem quod cumque maiores magnam voluptates quasi voluptas vitae?</p>
+            <a href= "#" id="seta-voltar" class="seta-voltar opacidade"> <img class="imagem-seta" src="src/img/seta.png" alt="seta voltar "></a>
 
-    <p><a href="#" class="slide 1">Saiba mais</a></p>
+            <div class="slide slide-rosa mostrar">
+                <div class="conteudo">
+                    <h2 class="titulo">Titulo Imagem 1</h2>
+                    <p class="texto"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum impedit repellat maxime quo eum. Libero quae cum sunt dolor alias natus, dignissimos dicta illo itaque, delectus atque voluptas incidunt aliquid! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic sit non modi expedita quae quasi explicabo aliquid perferendis asperiores, incidunt amet ratione animi voluptatum similique debitis quisquam recusandae. Nostrum, placeat!</p>
 
-</div>
+                    <a class="botao rosa" href="#">Saiba Mais</a>
+                </div>
+            </div>
 
-    <script src="index.js"></script>
-</body>
+            <div class="slide slide-verde">
+                <div class="conteudo">
+                    <h2 class="titulo">Titulo Imagem 2</h2>
+                    <p class="texto"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum impedit repellat maxime quo eum. Libero quae cum sunt dolor alias natus, dignissimos dicta illo itaque, delectus atque voluptas incidunt aliquid! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic sit non modi expedita quae quasi explicabo aliquid perferendis asperiores, incidunt amet ratione animi voluptatum similique debitis quisquam recusandae. Nostrum, placeat!</p>
+
+                    <a class="botao verde" href="#">Saiba Mais</a>
+                </div>
+            </div>
+
+            <div class="slide slide-laranja">
+                <div class="conteudo">
+                    <h2 class="titulo">Titulo Imagem 3</h2>
+                    <p class="texto"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum impedit repellat maxime quo eum. Libero quae cum sunt dolor alias natus, dignissimos dicta illo itaque, delectus atque voluptas incidunt aliquid! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic sit non modi expedita quae quasi explicabo aliquid perferendis asperiores, incidunt amet ratione animi voluptatum similique debitis quisquam recusandae. Nostrum, placeat!</p>
+
+                    <a class="botao laranja" href="#">Saiba Mais</a>
+                </div>
+            </div>
+
+            <div class="slide slide-azul">
+
+             <div class="conteudo">
+                    <h2 class="titulo">Titulo Imagem 4</h2>
+                    <p class="texto"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum impedit repellat maxime quo eum. Libero quae cum sunt dolor alias natus, dignissimos dicta illo itaque, delectus atque voluptas incidunt aliquid! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic sit non modi expedita quae quasi explicabo aliquid perferendis asperiores, incidunt amet ratione animi voluptatum similique debitis quisquam recusandae. Nostrum, placeat!</p>
+
+                    <a class="botao azul" href="#">Saiba Mais</a>
+            </div>
+
+                
+        </div>  
+            <a href="#" id="seta-avancar" class="seta-avancar"> <img class="imagem-seta" src="src/img/seta.png" alt="seta voltar "></a>
+        <script src="../src/js/painel.js"></script>
+
+    </body>
 </html>
