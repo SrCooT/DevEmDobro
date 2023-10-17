@@ -1,4 +1,4 @@
-html{
+html {
   background-color: #e5e5e5;
 }
 
@@ -7,7 +7,6 @@ main {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-
 }
 
 .acordeon {
@@ -21,31 +20,29 @@ main {
   position: relative;
 }
 
-.acordeon .ilustacao{
+.acordeon .ilustacao {
   position: absolute;
   left: -90px;
-  
 }
 
-.acordeon .conteudo{
+.acordeon .conteudo {
   width: 90%;
   padding-left: 225px;
-  
 }
 
-.acordeon .conteudo h1{
+.acordeon .conteudo h1 {
   font-size: 25px;
   font-weight: 700;
   margin-bottom: 30px;
 }
 
-.acordeon .items{
+.acordeon .items {
   list-style-type: none;
 }
 
-.acordeon .items .item{
+.acordeon .items .item {
   cursor: pointer;
-  background-image:url(../img/seta-fechada.png);
+  background-image: url(../img/seta-fechada.png);
   background-repeat: no-repeat;
   background-position: top 8px right 0;
   background-size: 12px;
@@ -53,24 +50,23 @@ main {
   margin: 10px 0;
 }
 
-.acordeon .items .item:last-child{
+.acordeon .items .item:last-child {
   border-bottom: none;
-
 }
 
-.acordeon .items .item .pergunta{
+.acordeon .items .item .pergunta {
   padding-bottom: 15px;
-  transition: 0,5s ease;
+  transition: 0, 5s ease;
   font-size: 17px;
   width: 90%;
-  font-weight:  500;
+  font-weight: 500;
 }
 
-.acordeon .items .item .pergunta:hover{
+.acordeon .items .item .pergunta:hover {
   color: #f47c57;
 }
 
-.resposta{
+.resposta {
   display: none;
   padding-bottom: 15px;
   font-size: 15px;
@@ -78,17 +74,15 @@ main {
 }
 
 /* ESTILOS DE ITEM DE acordeon ATIVO*/
-.acordeon .items .item.ativo h2{
+.acordeon .items .item.ativo h2 {
   font-weight: 700;
   font-style: 17px;
 }
 
-.acordeon .items .item.ativo .resposta{
+.acordeon .items .item.ativo .resposta {
   display: block;
 }
 
-.acordeon .items .item.ativo{
+.acordeon .items .item.ativo {
   background-image: url(../img/seta-aberta.png);
-  
 }
-
