@@ -33,7 +33,7 @@ function esconderImagemAberta() {
 function mostrarOuEsconderSetas() {
     const naoEhAPrimeiraImagem = imagemAtual !== 0;
     if (naoEhAPrimeiraImagem) {
-        setaVoltar.classList.remove(".opacidade");
+        setaVoltar.classList.remove("opacidade");
     } else {
         setaVoltar.classList.add("opacidade");
     }
@@ -53,10 +53,7 @@ setaVoltar.addEventListener("click",
             return;
         }
 
-
-
         imagemAtual--;
-
 
         esconderImagemAberta();
         mostrarImagem();
