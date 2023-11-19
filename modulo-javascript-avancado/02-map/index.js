@@ -25,3 +25,17 @@ const array1 = [ 1, 5, 6, 8]
 const map1 = array1.map((number) => number * 2);
 
 console.log(map1);
+
+
+let pessoas1 = [
+    {nome: 'CooT', idade: 23},
+    {nome: 'SrBlack', idade: 20},
+    {nome: 'Juno', idade: 26}
+]
+
+let nomeDasPessoas = pessoas1.map(pessoas1 => pessoas1.nome + " tem " + pessoas1.idade + ' de idade ');
+
+console.log(nomeDasPessoas);
+
+
+
