@@ -49,4 +49,4 @@ async function getUserData(userName) {
 
     screen.renderUser(user)
 }
-
+console.log('userName');

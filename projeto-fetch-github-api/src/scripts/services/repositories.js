@@ -6,3 +6,4 @@ async function getRepositories(userName) {
 }
 
 export { getRepositories }
+console.log(getRepositories);

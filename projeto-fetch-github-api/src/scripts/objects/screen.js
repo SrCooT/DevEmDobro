@@ -24,3 +24,4 @@ const screen = {
 }
 
 export { screen }
+console.log('profile-data');
