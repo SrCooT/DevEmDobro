@@ -1,0 +1,24 @@
+.card{
+    background-color: burlywood;
+    color: #fff;
+    padding: 20px;
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+    border: 1px solid rgb(7, 7, 7);
+    box-shadow: 10px 7px rgb(189, 168, 168);
+}
+
+.card :hover{
+    background-color: red;
+    box-shadow: 10px 7px blue;
+    border: 1px solid rgb(7, 7, 7);
+    transition: 0.5s;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
