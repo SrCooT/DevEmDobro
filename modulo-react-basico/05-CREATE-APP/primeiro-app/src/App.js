@@ -8,7 +8,7 @@ function App() {
     <Button label='Baixar CV'/>
     <Button />
 
-      <Cards />
+      <Cards> </Cards> 
     </>
   )
 }
