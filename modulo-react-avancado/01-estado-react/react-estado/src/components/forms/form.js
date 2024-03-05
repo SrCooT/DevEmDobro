@@ -1,19 +1,24 @@
 import { useState } from "react";
 
-
 const Form = (props) => {
 
     const [inputs, setInputs] = useState({
-        image:''
+        image: '',
+        value: '',
+        suit: ''
     })
 
     const handleInputChange = (event) => {
-            setInputs({
-                image: event.target.value
-            })
+        const { target } = event
+        const { value } = target
+        const { name } = target
+        setInputs({
+            ...inputs,
+            [name]: value
+        })
     }
 
-    const handleSubmit = ( event) => {
+    const handleSubmit = (event) => {
         event.preventDefault()
         props.addCard(inputs)
     }
@@ -23,7 +28,20 @@ const Form = (props) => {
                 <div>
                     <label htmlFor="image"> Endereço da imagem da carta</label>
                     <input type="text" id="image" name="image" onChange={
-                        handleInputChange}/>
+                        handleInputChange} value={inputs.image} />
+
+                </div>
+                <div>
+                    <label htmlFor="value"> Nome da carta</label>
+                    <input type="text" id="value" name="value" onChange={
+                        handleInputChange} value={inputs.value} />
+
+                </div>
+                <div>
+                    <label htmlFor="suits"> Naipe da carta</label>
+                    <input type="text" id="suit" name="suit" onChange={
+                        handleInputChange} value={inputs.suit} />
+
                 </div>
                 < input type="submit" />
             </form>

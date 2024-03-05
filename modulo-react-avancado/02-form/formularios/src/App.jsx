@@ -27,7 +27,7 @@ function App() {
         </p>
       </div>
 
-      <form className="form" onSubmit={handleSubmit(handleSubmitForm)}>
+      <form className="nome" onSubmit={handleSubmit(handleSubmitForm)}>
         <label htmlFor="nome" />
         <input
           type="text"

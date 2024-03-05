@@ -99,11 +99,11 @@ border: none;
 
 /*CLASSES PARA MANIPULAÇÃO COM JS*/
 .campo-obrigatorio{
-  border: 1px solid red;
+  border: 50px solid red;
 }
 
 .campo-preenchido{
-  border: 1px solid green;
+  border: 30px solid green;
 }
 
 .mensagem-alerta{
