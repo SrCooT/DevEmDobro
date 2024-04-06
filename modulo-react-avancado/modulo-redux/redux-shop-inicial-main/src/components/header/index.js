@@ -3,11 +3,12 @@ import { CartProductsCounter } from "../cart-products-counter";
 
 import { Link } from 'react-router-dom'
 
+
 const Header = () => {
   return (
     <Container>
       <Link to="/">
-        <h1>Redux Shop</h1>
+        <h1>JC Shop</h1>
       </Link>
       <CartProductsCounter />
     </Container>
