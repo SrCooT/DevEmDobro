@@ -36,6 +36,6 @@ const Container = styled.div`
 
     position: absolute;
     top: -7px;
-    right: -6px;
+    right: -6;
   }
-`;
+  `;

@@ -1,20 +1,19 @@
 import styled from "styled-components";
 import { CartProductsCounter } from "../cart-products-counter";
-
 import { Link } from 'react-router-dom'
 
 
 const Header = () => {
+
   return (
     <Container>
       <Link to="/">
-        <h1>JC Shop</h1>
+        <h1>Redux Shop</h1>
       </Link>
       <CartProductsCounter />
     </Container>
   );
 };
-
 const Container = styled.header`
   display: flex;
   justify-content: space-between;
